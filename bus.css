@@ -1,0 +1,1171 @@
+html {
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	font-family: sans-serif
+}
+
+body {
+	margin: 0
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+	display: block
+}
+
+a {
+	background-color: transparent
+}
+
+h1 {
+	margin: .67em 0;
+	font-size: 2em
+}
+
+h2 {
+	/* z-index: 20;
+	width: 80%; */
+	color: var(--dark-grey-2);
+	margin-top: 0;
+	margin-bottom: 0;
+	font-family: Sometimes times, sans-serif;
+	font-size: 3vw;
+	font-weight: 400;
+	line-height: 1.2
+}
+
+table {
+	width: 60%;
+	margin: 30px auto;
+	border-collapse: collapse;
+}
+
+td {
+	border: 1px solid #dddddd;
+	text-align: center;
+	padding: 12px;
+	opacity: .8;
+	color: var(--brand-black);
+	margin-bottom: 0;
+	font-family: Maison neue light, sans-serif;
+	font-size: 1.2vw;
+	font-weight: 300;
+	line-height: 1.5
+}
+
+th{
+	border: 1px solid #dddddd;
+	text-align: center;
+	padding: 12px;
+	opacity: .8;
+	color: var(--brand-black);
+	margin-bottom: 0;
+	font-family: Maison neue, sans-serif;
+	font-size: 1.3vw;
+	font-weight: 500;
+	line-height: 1.5
+}
+
+img {
+	border: 0
+}
+
+svg:not(:root) {
+	overflow: hidden
+}
+
+figure {
+	margin: 1em 40px
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0
+}
+
+[class^=w-icon-],
+[class*=\ w-icon-] {
+	speak: none;
+	font-variant: normal;
+	text-transform: none;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 1;
+	font-family: webflow-icons !important
+}
+
+.w-icon-slider-right:before {
+	content: "î˜€"
+}
+
+.w-icon-slider-left:before {
+	content: "î˜"
+}
+
+* {
+	box-sizing: border-box
+}
+
+html {
+	height: 100%
+}
+
+body {
+	min-height: 100%;
+	color: #333;
+	background-color: #fff;
+	margin: 0;
+	font-family: Arial, sans-serif;
+	font-size: 14px;
+	line-height: 20px
+}
+
+img {
+	max-width: 100%;
+	vertical-align: middle;
+	display: inline-block
+}
+
+.w-inline-block {
+	max-width: 100%;
+	display: inline-block
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin-bottom: 10px;
+	font-weight: 700
+}
+
+h1 {
+	margin-top: 20px;
+	font-size: 38px;
+	line-height: 44px
+}
+
+h2 {
+	margin-top: 20px;
+	font-size: 32px;
+	line-height: 36px
+}
+
+h3 {
+	margin-top: 20px;
+	font-size: 24px;
+	line-height: 30px
+}
+
+h4 {
+	margin-top: 10px;
+	font-size: 18px;
+	line-height: 24px
+}
+
+h5 {
+	margin-top: 10px;
+	font-size: 14px;
+	line-height: 20px
+}
+
+h6 {
+	margin-top: 10px;
+	font-size: 12px;
+	line-height: 18px
+}
+
+p {
+	margin-top: 0;
+	margin-bottom: 10px
+}
+
+blockquote {
+	border-left: 5px solid #e2e2e2;
+	margin: 0 0 10px;
+	padding: 10px 20px;
+	font-size: 18px;
+	line-height: 22px
+}
+
+figure {
+	margin: 0 0 10px
+}
+
+figcaption {
+	text-align: center;
+	margin-top: 5px
+}
+
+/* ul,
+ol {
+	margin-top: 0;
+	margin-bottom: 10px;
+	padding-left: 40px
+} */
+
+ul,
+ol {
+    opacity: 0.8; /* Adjusted opacity to match p */
+    color: var(--brand-black); /* Adjusted color to match p */
+    margin-bottom: 10px;
+	margin-top: 0;
+    font-family: 'Maison Neue Light', sans-serif;
+    font-size: 1.5vw;
+    font-weight: 300;
+    line-height: 1.5;
+    padding-left: 40px;
+}
+
+.w-list-unstyled {
+	padding-left: 0;
+	list-style: none
+}
+
+
+.w-form {
+	margin: 0 0 15px
+}
+
+.w-form-done {
+	text-align: center;
+	background-color: #ddd;
+	padding: 20px;
+	display: none
+}
+
+.w-form-fail {
+	background-color: #ffdede;
+	margin-top: 10px;
+	padding: 10px;
+	display: none
+}
+
+label {
+	margin-bottom: 5px;
+	font-weight: 700;
+	display: block
+}
+
+.w-slider {
+	height: 300px;
+	text-align: center;
+	clear: both;
+	-webkit-tap-highlight-color: transparent;
+	tap-highlight-color: transparent;
+	background: #ddd;
+	position: relative
+}
+
+.w-slider-mask {
+	z-index: 1;
+	height: 100%;
+	white-space: nowrap;
+	display: block;
+	position: relative;
+	left: 0;
+	right: 0;
+	overflow: hidden
+}
+
+.w-slide {
+	vertical-align: top;
+	width: 100%;
+	height: 100%;
+	white-space: normal;
+	text-align: left;
+	display: inline-block;
+	position: relative
+}
+
+.w-slider-nav {
+	z-index: 2;
+	height: 40px;
+	text-align: center;
+	-webkit-tap-highlight-color: transparent;
+	tap-highlight-color: transparent;
+	margin: auto;
+	padding-top: 10px;
+	position: absolute;
+	top: auto;
+	bottom: 0;
+	left: 0;
+	right: 0
+}
+
+.w-slider-arrow-left,
+.w-slider-arrow-right {
+	width: 80px;
+	cursor: pointer;
+	color: #fff;
+	-webkit-tap-highlight-color: transparent;
+	tap-highlight-color: transparent;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	margin: auto;
+	font-size: 40px;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	overflow: hidden
+}
+
+.w-slider-arrow-left [class^=w-icon-],
+.w-slider-arrow-right [class^=w-icon-],
+.w-slider-arrow-left [class*=\ w-icon-],
+.w-slider-arrow-right [class*=\ w-icon-] {
+	position: absolute
+}
+
+.w-slider-arrow-left {
+	z-index: 3;
+	right: auto
+}
+
+.w-slider-arrow-right {
+	z-index: 4;
+	left: auto
+}
+
+.w-icon-slider-left,
+.w-icon-slider-right {
+	width: 1em;
+	height: 1em;
+	margin: auto;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0
+}
+
+.w-slider-aria-label {
+	clip: rect(0 0 0 0);
+	height: 1px;
+	width: 1px;
+	border: 0;
+	margin: -1px;
+	padding: 0;
+	position: absolute;
+	overflow: hidden
+}
+
+.w-slider-force-show {
+	display: block !important
+}
+
+.w-richtext:before,
+.w-richtext:after {
+	content: " ";
+	grid-area: 1/1/2/2;
+	display: table
+}
+
+.w-richtext:after {
+	clear: both
+}
+
+.w-richtext[contenteditable=true]:before,
+.w-richtext[contenteditable=true]:after {
+	white-space: initial
+}
+
+.w-richtext figure {
+	max-width: 60%;
+	position: relative
+}
+
+.w-richtext figure>div:before {
+	cursor: default !important
+}
+
+.w-richtext figure img {
+	width: 100%
+}
+
+.w-richtext figure div {
+	color: transparent;
+	font-size: 0
+}
+
+.w-richtext figure.w-richtext-figure-type-image,
+.w-richtext figure[data-rt-type=image] {
+	display: table
+}
+
+.w-richtext figure.w-richtext-figure-type-image>div,
+.w-richtext figure[data-rt-type=image]>div {
+	display: inline-block
+}
+
+.w-richtext figure.w-richtext-align-fullwidth {
+	width: 100%;
+	max-width: 100%;
+	text-align: center;
+	clear: both;
+	margin-left: auto;
+	margin-right: auto;
+	display: block
+}
+
+.w-richtext figure.w-richtext-align-fullwidth>div {
+	padding-bottom: inherit;
+	display: inline-block
+}
+
+.w-nav {
+	z-index: 1000;
+	background: #ddd;
+	position: relative
+}
+
+.w-nav:before,
+.w-nav:after {
+	content: " ";
+	grid-area: 1/1/2/2;
+	display: table
+}
+
+.w-nav:after {
+	clear: both
+}
+
+.w-nav-overlay {
+	width: 100%;
+	display: none;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	right: 0;
+	overflow: hidden
+}
+
+.w-dyn-empty {
+	background-color: #ddd;
+	padding: 10px
+}
+
+.w-dyn-hide,
+.w-dyn-bind-empty,
+.w-condition-invisible {
+	display: none !important
+}
+
+.wf-layout-layout {
+	display: grid
+}
+
+:root {
+	--brand-black: #27282b;
+	--light-body-trial: #fdf6f0;
+	--dark-slate-blue-2: #192a51;
+	--brand-white: #fcfcfc;
+	--black: black;
+	--secondary-blue-2: #5b6781;
+	--blue-overlay: rgba(25, 42, 81, .9);
+	--forrest-green: #10261d;
+	--dark-slate-blue: #253f79;
+	--dim-grey-2: #4a4a4a;
+	--dark-grey-2: #333;
+	--dim-grey: #4a4a4a;
+	--white: white;
+	--seashell-2: #fdf6f0;
+	--ghost-white: #f2f6ff;
+	--peach: #efe7e3;
+	--seashell: #fcf7f4;
+	--snow: #fdfaf9;
+	--brown: rgba(132, 66, 71, .8);
+	--peach-white: #fffdfc;
+	--dark-salmon: #b88369;
+	--rosy-brown: #d2b9aa;
+	--midnight-blue: #1b3133;
+	--secondary-blue: #447a7e;
+	--dark-salmon-overlay: rgba(184, 131, 105, .4);
+	--highlight: #ffffe4;
+	--old-footer: #e5cfc1;
+	--header-blue: #065a82;
+	--slate-grey: #5b6781;
+	--dark-grey: #b4b4b4;
+	--midnight-blue-2: #192a51
+}
+
+h2 {
+	margin-top: 20px;
+	margin-bottom: 10px;
+	font-size: 32px;
+	font-weight: 700;
+	line-height: 36px
+}
+
+h5 {
+	margin-top: 0;
+	margin-bottom: 0;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 20px
+}
+
+p {
+	opacity: .8;
+	color: var(--brand-black);
+	margin-bottom: 0;
+	font-family: Maison neue light, sans-serif;
+	font-size: 1.5vw;
+	font-weight: 300;
+	line-height: 1.5
+}
+
+b {
+	opacity: .8;
+	color: var(--brand-black);
+	margin-bottom: 0;
+	font-family: Maison neue, sans-serif;
+	font-size: 1.5vw;
+	font-weight: 500;
+	line-height: 1.5
+}
+
+a {
+	text-decoration: underline
+}
+
+.footer {
+	background-color: var(--light-body-trial);
+	border: 0 solid #ddd;
+	padding-top: 102px;
+	padding-bottom: 102px;
+	padding-left: 5%
+}
+
+.backtotop {
+	z-index: 500;
+	opacity: 0;
+	position: fixed;
+	top: auto;
+	bottom: 5%;
+	left: auto;
+	right: 5%
+}
+
+.image-13 {
+	width: 50px;
+	height: 50px
+}
+
+.cs_home {
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 10em 10%;
+	display: flex
+}
+
+.navbar_casestudy {
+	background-color: transparent;
+	border: 0 solid #ddd;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	top: 0%;
+	bottom: auto;
+	left: 0%;
+	right: 0%
+}
+
+.case_name {
+	color: #192a51;
+	font-family: Sometimes times, sans-serif;
+	font-size: 10vw;
+	font-weight: 400;
+	line-height: 1.5
+}
+
+.text-block-31 {
+	color: var(--dim-grey-2);
+	font-family: Maison neue light, sans-serif;
+	font-size: 2vw;
+	font-weight: 300;
+	line-height: 1.2
+}
+
+.text-block-31.small {
+	color: var(--dim-grey-2);
+	padding-top: 3.75em;
+	font-family: Maison neue web light, sans-serif;
+	font-size: 1.5vw;
+	font-weight: 400
+}
+
+.po_section {
+	justify-content: center;
+	padding: 7.5em 10%;
+	display: flex
+}
+
+.heading_part {
+	width: 50vw;
+	height: 100%
+}
+
+.content_part {
+	width: 50vw
+}
+
+.cs_heading {
+	z-index: 20;
+	width: 80%;
+	color: var(--dark-grey-2);
+	margin-top: 0;
+	margin-bottom: 0;
+	font-family: Sometimes times, sans-serif;
+	font-size: 3vw;
+	font-weight: 400;
+	line-height: 1.2
+}
+
+.cs_heading.light {
+	width: 80%;
+	color: #1a1a1a
+}
+
+.rich_text {
+	color: var(--dark-slate-blue-2);
+	margin-top: 30px;
+	font-family: Maison neue web light, sans-serif
+}
+
+.rich_text h5 {
+	color: var(--dark-grey-2);
+	margin-bottom: 8px;
+	font-family: Maison neue web book, sans-serif;
+	font-size: 1.75vw;
+	font-weight: 400;
+	line-height: 1.2
+}
+
+.rich_text p {
+	color: var(--dim-grey);
+	margin-top: 0;
+	margin-bottom: 24px;
+	font-family: Maison neue web light, sans-serif;
+	font-size: 1.6vw;
+	font-weight: 300;
+	line-height: 1.5
+}
+
+.rich_text.no-margin {
+	margin-top: 0
+}
+
+.image_section {
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 7.5em 10%;
+	display: flex
+}
+
+.image-32 {
+	width: 80vw
+}
+
+.pd_section {
+	flex-direction: column;
+	align-items: flex-start;
+	padding: 7.5em 10%;
+	display: flex
+}
+
+.text-block-32 {
+	color: var(--brand-black);
+	text-transform: uppercase;
+	margin-bottom: 3%;
+	font-family: Maison neue web book, sans-serif;
+	font-size: 1.5vw;
+	font-weight: 400;
+	line-height: 1.2
+}
+
+.text-block-32.light {
+	color: var(--brand-black)
+}
+
+.div-block-76 {
+	width: 100%;
+	padding-top: 48px;
+	display: flex;
+	position: relative
+}
+
+.div-block-76.stick {
+	padding-top: 7.5em;
+	padding-bottom: 7.5em
+}
+
+.ux_challenges {
+	flex-direction: column;
+	align-items: flex-start;
+	padding: 7.5em 10%;
+	display: flex
+}
+
+.rich_text_light h5 {
+	color: var(--dark-slate-blue);
+	font-family: Maison neue book, sans-serif;
+	font-size: 1.75vw;
+	font-weight: 400;
+	line-height: 1.2
+}
+
+.rich_text_light p {
+	color: var(--dim-grey-2);
+	margin-top: 8px;
+	margin-bottom: 24px;
+	font-family: Maison neue web light, sans-serif;
+	font-size: 1.4vw;
+	font-weight: 300;
+	line-height: 1.5
+}
+
+.div-block-77 {
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+	margin-top: 4em;
+	margin-bottom: 8em;
+	display: flex
+}
+
+.image-33 {
+	width: 44vw
+}
+
+.image-33.conditional {
+	width: 100vw
+}
+
+.image-34 {
+	width: 100%;
+	margin-top: 4em;
+	margin-bottom: 8em
+}
+
+.research_section {
+	background-color: var(--brand-white);
+	flex-direction: column;
+	align-items: flex-start;
+	padding: 7.5em 10%;
+	display: flex
+}
+
+.image-33-copy {
+	width: 100vw;
+	max-width: none
+}
+
+.image-33-copy.conditional {
+	width: 80vw
+}
+
+.ux_solution,
+.outcomes_section,
+.branding_section {
+	flex-direction: column;
+	align-items: flex-start;
+	padding: 7.5em 10%;
+	display: flex
+}
+
+.exp_section {
+	flex-direction: column;
+	align-items: flex-start;
+	padding: 7.5em 10%;
+	display: flex;
+	position: relative
+}
+
+.text-block-32-stick {
+	color: var(--brand-black);
+	margin-bottom: 10px;
+	font-family: Maison neue web book, sans-serif;
+	font-size: 1.5vw;
+	font-weight: 400;
+	line-height: 1.2
+}
+
+.heading_part-stick {
+	width: 50vw;
+	height: 100%;
+	position: -webkit-sticky;
+	position: sticky;
+	top: 60px
+}
+
+.collection-list-wrapper-2 {
+	width: 100%
+}
+
+.empty-state {
+	background-color: transparent;
+	display: none
+}
+
+.usability_section {
+	flex-direction: column;
+	align-items: flex-start;
+	padding: 7.5em 10%;
+	display: flex
+}
+
+.collection-list-wrapper-3 {
+	width: 100%;
+	margin-top: 3em
+}
+
+.rich_text-stick-anim p {
+	color: var(--dim-grey);
+	margin-top: 0;
+	margin-bottom: 24px;
+	font-family: Maison neue web light, sans-serif;
+	font-size: 1.6vw;
+	font-weight: 300;
+	line-height: 1.5
+}
+
+.slider-3 {
+	height: 100%;
+	background-color: transparent;
+	padding-left: 10%;
+	padding-right: 10%
+}
+
+.slide-nav-4 {
+	display: none
+}
+
+.icon-8 {
+	color: var(--forrest-green)
+}
+
+.image-38 {
+	width: 100%
+}
+
+.slide-4 {
+	width: 45%;
+	margin-right: 10%
+}
+
+.slide-4.last {
+	margin-right: 0%
+}
+
+.section-2 {
+	display: none
+}
+
+.progressbar {
+	z-index: 20;
+	width: 0%;
+	height: 1.5%;
+	background-color: var(--dark-slate-blue-2);
+	position: fixed;
+	top: auto;
+	bottom: 0%;
+	left: 0%;
+	right: 0%
+}
+
+@media screen and (max-width:991px) {
+	p {
+		font-size: 2vw
+	}
+
+	.cs_heading {
+		width: 90%;
+		font-size: 4vw
+	}
+
+	.cs_heading.light {
+		width: auto
+	}
+
+	.rich_text h5 {
+		font-size: 2.5vw
+	}
+
+	.rich_text p {
+		font-size: 2vw
+	}
+
+	.pd_section {
+		padding-top: 3.75em;
+		padding-bottom: 3.75em
+	}
+
+	.text-block-32 {
+		font-size: 2vw
+	}
+
+	.ux_challenges {
+		padding-top: 3.75em;
+		padding-bottom: 3.75em
+	}
+
+	.rich_text_light p {
+		font-size: 2vw
+	}
+
+	.research_section,
+	.ux_solution,
+	.outcomes_section,
+	.branding_section,
+	.exp_section,
+	.usability_section {
+		padding-top: 3.75em;
+		padding-bottom: 3.75em
+	}
+
+	.rich_text-stick-anim p {
+		font-size: 2vw
+	}
+}
+
+@media screen and (max-width:767px) {
+	p {
+		font-size: 2.5vw
+	}
+
+	.case_name {
+		font-size: 15vw
+	}
+
+	.text-block-31 {
+		font-size: 4vw
+	}
+
+	.text-block-31.small {
+		font-size: 2.5vw
+	}
+
+	.po_section {
+		flex-direction: column
+	}
+
+	.heading_part {
+		width: auto
+	}
+
+	.content_part {
+		width: auto;
+		justify-content: flex-end;
+		display: flex
+	}
+
+	.cs_heading {
+		width: 70%;
+		font-size: 6vw
+	}
+
+	.rich_text {
+		margin-top: 20px
+	}
+
+	.rich_text h5 {
+		font-size: 3.5vw
+	}
+
+	.rich_text p {
+		font-size: 2.5vw
+	}
+
+	.pd_section {
+		flex-direction: column;
+		padding-top: 3.75em;
+		padding-bottom: 3.75em
+	}
+
+	.text-block-32 {
+		margin-bottom: 0;
+		font-size: 2.5vw
+	}
+
+	.div-block-76 {
+		flex-direction: column;
+		align-items: flex-start;
+		padding-top: 3.75em;
+		padding-bottom: 3.75em
+	}
+
+	.ux_challenges {
+		padding-top: 3.75em;
+		padding-bottom: 3.75em
+	}
+
+	.rich_text_light {
+		margin-top: 20px
+	}
+
+	.rich_text_light p {
+		font-size: 2.5vw
+	}
+
+	.div-block-77 {
+		flex-direction: column;
+		justify-content: flex-start;
+		align-items: center
+	}
+
+	.image-33 {
+		width: auto
+	}
+
+	.research_section,
+	.ux_solution,
+	.outcomes_section,
+	.branding_section {
+		padding-top: 3.75em;
+		padding-bottom: 3.75em
+	}
+
+	.exp_section {
+		padding-top: .75em;
+		padding-bottom: 3.75em
+	}
+
+	.text-block-32-stick {
+		font-size: 2vw
+	}
+
+	.usability_section {
+		padding-top: 3.75em;
+		padding-bottom: 3.75em
+	}
+
+	.rich_text-stick-anim {
+		width: 50%
+	}
+
+	.rich_text-stick-anim p {
+		font-size: 2.5vw
+	}
+
+	.icon-8 {
+		font-size: 20px;
+		font-weight: 700
+	}
+}
+
+@font-face {
+	font-family: 'Sometimes times web';
+	src: url('https://uploads-ssl.webflow.com/5fa2eabfcd722774771f4fa2/606f1cd6cf2fd8142c555457_Sometimes%20Times.woff') format('woff');
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Sometimes times web';
+	src: url('https://uploads-ssl.webflow.com/5fa2eabfcd722774771f4fa2/606f1cee10c169440970ea40_Sometimes%20Times%20Italic.woff') format('woff');
+	font-weight: 400;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Maison neue web light italic';
+	src: url('https://uploads-ssl.webflow.com/5fa2eabfcd722774771f4fa2/6071c604181b241480cc7648_MaisonNeueWEB-LightItalic.woff') format('woff');
+	font-weight: 300;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Maison neue web light';
+	src: url('https://uploads-ssl.webflow.com/5fa2eabfcd722774771f4fa2/6071c6049575ba4f1bab3047_MaisonNeueWEB-Light.woff') format('woff');
+	font-weight: 300;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Maison neue web book';
+	src: url('https://uploads-ssl.webflow.com/5fa2eabfcd722774771f4fa2/6071c604f217785e6de83a00_MaisonNeueWEB-Book.woff') format('woff');
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Sometimes times';
+	src: url('https://uploads-ssl.webflow.com/5fa2eabfcd722774771f4fa2/6069bed61cff2c5202ed67f5_Sometimes%20Times.ttf') format('truetype');
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Sometimes times';
+	src: url('https://uploads-ssl.webflow.com/5fa2eabfcd722774771f4fa2/6069bee3c01531be37c7dad6_Sometimes%20Times%20Italic.ttf') format('truetype');
+	font-weight: 400;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Maison neue book';
+	src: url('https://uploads-ssl.webflow.com/5fa2eabfcd722774771f4fa2/6069c0d773bd5eb97fc296dc_MaisonNeueTRIAL-Book.otf') format('opentype');
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Maison neue bold';
+	src: url('https://uploads-ssl.webflow.com/5fa2eabfcd722774771f4fa2/6069c0e49c3b85df917f18d3_MaisonNeueTRIAL-Bold.otf') format('opentype');
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Maison neue italic';
+	src: url('https://uploads-ssl.webflow.com/5fa2eabfcd722774771f4fa2/6069c116b9a185175be31db9_MaisonNeueTRIAL-ThinItalic.otf') format('opentype');
+	font-weight: 100;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Maison neue light';
+	src: url('https://uploads-ssl.webflow.com/5fa2eabfcd722774771f4fa2/606a388116f3744c160eabba_MaisonNeueTRIAL-Light.otf') format('opentype'), url('https://uploads-ssl.webflow.com/5fa2eabfcd722774771f4fa2/606a388116f3744c160eabba_MaisonNeueTRIAL-Light.otf') format('opentype');
+	font-weight: 300;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Maison neue medium';
+	src: url('https://uploads-ssl.webflow.com/5fa2eabfcd722774771f4fa2/6071c41a8512bbed51196d5e_MaisonNeueTRIAL-Medium.otf') format('opentype');
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
